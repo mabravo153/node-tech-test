@@ -12,8 +12,9 @@ let dbUserName = process.env.DB_USERNAME;
 let dbPassword = process.env.DB_PASSWORD;
 const conectDB = new sequelize_1.Sequelize(`${dbName}`, `${dbUserName}`, `${dbPassword}`, {
     host: `${dbHost}`,
-    dialect: 'mariadb',
-    port: 3306
+    dialect: "mariadb",
+    port: 3306,
+    logging: false,
 });
 exports.default = conectDB;
 //# sourceMappingURL=conect.js.map

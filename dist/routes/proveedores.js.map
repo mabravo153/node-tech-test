@@ -1,1 +1,1 @@
-{"version":3,"file":"proveedores.js","sourceRoot":"","sources":["../../routes/proveedores.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AAEjC,MAAM,MAAM,GAAG,gBAAM,EAAE,CAAC;AAGxB,mCAAmC;AAOnC,kBAAe,MAAM,CAAA"}
+{"version":3,"file":"proveedores.js","sourceRoot":"","sources":["../../routes/proveedores.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AACjC,4DAIoC;AAEpC,MAAM,MAAM,GAAG,gBAAM,EAAE,CAAC;AAExB,MAAM,CAAC,GAAG,CAAC,MAAM,EAAE,6BAAe,CAAC,CAAC;AACpC,MAAM,CAAC,GAAG,CAAC,eAAe,EAAE,gCAAkB,CAAC,CAAC;AAChD,MAAM,CAAC,MAAM,CAAC,MAAM,EAAE,4BAAc,CAAC,CAAC;AAEtC,kBAAe,MAAM,CAAC"}

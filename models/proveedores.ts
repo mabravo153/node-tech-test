@@ -1,42 +1,53 @@
-import { DataTypes } from "sequelize";
+import { DataTypes, Sequelize } from "sequelize";
 import conectDB from "../db/conect";
+import Product from "./productos";
 
-
-const Supplier = conectDB.define('Suppliers', {
+const Supplier = conectDB.define(
+  "Suppliers",
+  {
+    SupplierID: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      key: "SupplierID",
+    },
     CompanyName: {
-        type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
     ContactName: {
-        type: DataTypes.INTEGER
+      type: DataTypes.INTEGER,
     },
     ContactTitle: {
-        type: DataTypes.INTEGER
+      type: DataTypes.INTEGER,
     },
     Address: {
-        type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
     City: {
-        type: DataTypes.DECIMAL
+      type: DataTypes.DECIMAL,
     },
     Region: {
-        type: DataTypes.SMALLINT
+      type: DataTypes.SMALLINT,
     },
     PostalCode: {
-        type: DataTypes.SMALLINT
+      type: DataTypes.SMALLINT,
     },
     Country: {
-        type: DataTypes.SMALLINT
+      type: DataTypes.SMALLINT,
     },
     Phone: {
-        type: DataTypes.TINYINT
+      type: DataTypes.TINYINT,
     },
     Fax: {
-        type: DataTypes.TINYINT
+      type: DataTypes.TINYINT,
     },
     HomePage: {
-        type: DataTypes.TEXT
+      type: DataTypes.TEXT,
     },
-})
+  },
+  {
+    paranoid: true,
+    timestamps: true,
+  }
+);
 
-
-export default Supplier
+export default Supplier;

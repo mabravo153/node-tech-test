@@ -1,1 +1,1 @@
-{"version":3,"file":"categorias.js","sourceRoot":"","sources":["../../routes/categorias.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AAEjC,MAAM,MAAM,GAAG,gBAAM,EAAE,CAAC;AAGxB,mCAAmC;AAOnC,kBAAe,MAAM,CAAA"}
+{"version":3,"file":"categorias.js","sourceRoot":"","sources":["../../routes/categorias.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AACjC,0DAA6D;AAE7D,MAAM,MAAM,GAAG,gBAAM,EAAE,CAAC;AAExB,MAAM,CAAC,GAAG,CAAC,eAAe,EAAE,6BAAgB,CAAC,CAAC;AAE9C,kBAAe,MAAM,CAAC"}

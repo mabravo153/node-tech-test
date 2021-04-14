@@ -1,13 +1,8 @@
 import { Router } from "express";
+import { getAllCategories } from "../controllers/categorias";
 
 const router = Router();
 
+router.get("/:id/products", getAllCategories);
 
-// router.get('/', getAllProducts);
-
-
-
-
-
-
-export default router
+export default router;
